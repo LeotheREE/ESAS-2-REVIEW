@@ -236,7 +236,7 @@ const categories = {
     {
         "question": "A man driving a car at 45 mph suddenly sees an object in the road 60 feet ahead. What constant deceleration is required to stop the car in this distance?",
         "choices": ["–42.6 ft/sec²", "–41.8 ft/sec²", "–36.3 ft/sec²", "–35.3 ft/sec²"],
-        "answer": "–35.3 ft/sec²"
+        "answer": "–36.3 ft/sec²"
     },
     {
         "question": "A 1.2 µF capacitor is charged to 3 kVolt. What is the energy stored in the capacitor?",
