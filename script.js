@@ -275,7 +275,7 @@ const categories = {
     {
         "question": "Which is not included in a basic communication circuit?",
         "choices": ["Antenna", "Communication Channel", "Transmitter", "Receiver"],
-        "answer": "AKO NA BAHALA DITO"
+        "answer": "Antenna"
     },
     {
         "question": "For which of the following parameter variation, the capacitance of the capacitor remains un affected",
