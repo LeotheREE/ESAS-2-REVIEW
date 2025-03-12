@@ -289,7 +289,7 @@ const categories = {
     },
     {
         "question": "Radio receivers are usually tuned by adjusting capacitor of an LC circuit. If C=C1 for frequency of 600kHz, then for a frequency of 1200 kHz, C must adjust to",
-        "choices": ["C1/2", "2C1", " C1/4", "4C1"],
+        "choices": ["C1/2", "2C1", "C1/4", "4C1"],
         "answer": "C1/4"
     },
     {
