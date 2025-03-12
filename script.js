@@ -154,7 +154,7 @@ const categories = {
     {
         "question": "An ideal transformer has voltage rating of 2300/230 V, a motor is connected to the secondary draws 30 A at 200 V, what resistance must be connected to maintain this voltage?",
         "choices": ["0.67 Ohm", "1.0 Ohm", "0.75 Ohm", "10 Ohms"],
-        "answer": "1.0 Oh"
+        "answer": "1.0 Ohm"
     },
     {
         "question": "What is the device used to a generator to prevent motorizing?",
