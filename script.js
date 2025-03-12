@@ -1,19 +1,351 @@
 const categories = {
     "EE": [
+
     {
-        question: "ESAS PALANG",
-        choices: ["ESAS PALANG", "ESAS PALANG1", "ESAS PALANG2", "ESAS PALANG3"],
-        answer: "ESAS PALANG"
+        "question": "The direction of magnetic lines",
+        "choices": ["from south to North", "from one end of magnetic", "from north pole to south pole", "None of the above"],
+        "answer": "from north pole to south pole"
     },
     {
-        question: "ESAS PALANG:",
-        choices: ["ESAS PALANG", "ESAS PALANG1", "ESAS PALANG2", "ESAS PALANG3"],
-        answer: "ESAS PALANG"
+        "question": "Two capacitors C1= 6micro-farad and C2= 4micro-farad are connected in series. Find the equivalent capacitance in micro-farad",
+        "choices": ["1.6", "10", "3", "2.4"],
+        "answer": "2.4"
     },
     {
-        question: "ESAS PALANG",
-        choices: ["ESAS PALANG", "ESAS PALAN1G", "ESAS PALANG2", "ESAS PALANG3"],
-        answer: "ESAS PALANG"
+        "question": "A 120 V dc shunt motor has an armature resistance of 200milli ohm. If the full nload armature current is 75 A, find the starting resistance needed to limit the armature starting current to 150% of the full load value.",
+        "choices": ["0.804", "0.822", "0.849", "0.862"],
+        "answer": "0.862"
+    },
+    {
+        "question": "Why are the core losses negligible during short-circuit test in transformer?",
+        "choices": ["Power factor is low", "Frequency is low", "Mutual flux is small", "Current is high"],
+        "answer": "Power factor is low"
+    },
+    {
+        "question": "A 120 volts dc source is supplying three resistors in series. The first has 50-ohm resistance, second has 45 volts drop and third dissipates 25 watts power. What is the resistance R2?",
+        "choices": ["240 ohms", "100 ohms", "120 ohms", "90 ohms"],
+        "answer": "90 ohms"
+    },
+    {
+        "question": "What is the type of relay that detect excessive current?",
+        "choices": ["Differential Relay", "Reverse current Relay", "Overcurrent Relay", "Overvoltage Relay"],
+        "answer": "Overcurrent Relay"
+    },
+    {
+        "question": "Which of the following is an instrument transformer?",
+        "choices": ["Distribution transformers", "Potential transformers", "Power transformers", "Autotransformer"],
+        "answer": "Potential transformers"
+    },
+    {
+        "question": "A series RLC consists of a 100-ohm resistor, a 90 mH inductor, and a 80 microF capacitor. What is the power factor of the circuit if it is supplied at w=800/sec",
+        "choices": ["0.657", "0.857", "0.802", "0.789"],
+        "answer": "0.857"
+    },
+    {
+        "question": "For handling greater currents induction wattmeter’s are used in conjunction with",
+        "choices": ["Potential transformers", "Current transformers", "Power transformers", "Either of the above"],
+        "answer": "Current transformers"
+    },
+    {
+        "question": "Two compound generators are connected in parallel. If generator A has a series field resistance of 0.0015 ohm and is adjusted to take 30% of the line load while generator B with a series field resistance of 0.001 ohm takes the remainder of the load. Determine the current flow in the equalizer when the load is 230 kW at 230V.",
+        "choices": ["300A", "100A", "400A", "700A"],
+        "answer": "100A"
+    },
+    {
+        "question": "When one coil of magnetically coupled pair has a current of 5 amperes, the resulting flux =0.3 mWb and flux =0.45 mWb respectively. If the turns are N1=100 and N2=300, Find coupling coefficient k.",
+        "choices": ["0.6", "0.4", "0.5", "0.7"],
+        "answer": "0.4"
+    },
+    {
+        "question": "What is the total resistance of 11 resistors of 33 kilo-Ohms each when connected parallel",
+        "choices": ["3 kilo-Ohm", "363 kilo-Ohm", "33 kilo-Ohm", "11 kilo-Ohm"],
+        "answer": "3 kilo-Ohm"
+    },
+    {
+        "question": "A balance 3-phase wye connected load of 150 kW takes a leading current of 100 A when the line is 2400 V 60Hz. What is the capacitance per phase?",
+        "choices": ["21mF", "21uF", "205 mF", "205 uF"],
+        "answer": "205 uF"
+    },
+    {
+        "question": "Find the power factor of a circuit that absorbs 1.5 kW for 230V input voltage and 8A current",
+        "choices": ["0.815", "0.781", "0.852", "0.798"],
+        "answer": "0.815"
+    },
+    {
+        "question": "Which material has the least resistance",
+        "choices": ["Copper", "Glass", "Aluminum", "Porcelain"],
+        "answer": "Copper"
+    },
+    {
+        "question": "What is the type of communication that only one of the two party can transmit at a time?",
+        "choices": ["Full duplex", "Bicomm", "Half duplex", "Simplex"],
+        "answer": "Half duplex"
+    },
+    {
+        "question": "Appliance receptacle outlet installed in a dwelling unit for specific appliance, such as laundry equipment, shall be installed within ____ mm of the intended location of the appliance",
+        "choices": ["1200", "2000", "1500", "1800"],
+        "answer": "1800"
+    },
+    {
+        "question": "A generator delivers a load through a pair of wires, each of which has a resistance of 0.06 ohm. If the load voltage and power are 120 v and 4.8 kW, respectively, what is the generated voltage?",
+        "choices": ["125.5 V", "126.8 V", "124.8 V", "123.5 V"],
+        "answer": "124.8 V"
+    },
+    {
+        "question": "In Philippine Distribution Code Performance Standards, which of the following is not belong?",
+        "choices": ["Collection standards", "Safety standards", "Reliability standards", "System efficiency standards"],
+        "answer": "Collection standards"
+    },
+    {
+        "question": "What is IEEE device number for distance relay?",
+        "choices": ["59", "57", "21", "87"],
+        "answer": "21"
+    },
+    {
+        "question": "A voltage divider of two resistors is designed with a total resistance of the two resistors are equal to 100 ohms. If the output voltage is 20% of the output voltage, what are the values of the two resistors in the circuit?",
+        "choices": ["90- & 10-Ohms", "80- and 20-Ohms", "79- & 21-Ohms", "75- and 25-Ohms"],
+        "answer": "80- and 20-Ohms"
+    },
+    {
+        "question": "A series RL consists of R = 40 ohm and L = 50 mH. What is the power factor of the circuit if w = 360rad/sec.",
+        "choices": ["0.962", "0.912", "0.866", "0.935"],
+        "answer": "0.912"
+    },
+    {
+        "question": "What is the complex expression What is the instantaneous expression for a given alternating current  i = 250 sin (wt + 25 degrees)",
+        "choices": ["160 + j75 amperes", "60 - j75 amperes", "227 + j 106", "227 – j 106"],
+        "answer": "227 + j 106"
+    },
+    {
+        "question": "The three-phase balanced load of 10 ohms each resistor in each of its phase. The load is supplied by a 220V three phase source. Calculate the power absorbed by the load if its connected in wye.",
+        "choices": ["14.52 kW", "2.42kW", "4.84 kW", "2.2 kW"],
+        "answer": "4.84 kW"
+    },
+    {
+        "question": "Protection used for personnel against electric shock is",
+        "choices": ["GFCI", "Fuse", "AFCI", "Circuit breaker"],
+        "answer": "GFCI"
+    },
+    {
+        "question": "The potential difference across a resistor is doubled only________",
+        "choices": ["The resistance is halved", "The current is doubled", "The current is halved", "The resistance is doubled"],
+        "answer": "The current is doubled"
+    },
+    {
+        "question": "Which of the following is not a consideration in surge arresters?",
+        "choices": ["Arrester class", "Voltage rating", "Current rating", "Insulation coordination"],
+        "answer": "Current rating"
+    },
+    {
+        "question": "A 60-Hz induction motor has two poles and runs at 3510 rpm. of the What is the synchronous speed of the induction motor?",
+        "choices": ["3200 rpm", "3600 rpm", "3800 rpm", "3400 rpm"],
+        "answer": "3600 rpm"
+    },
+    {
+        "question": "3000 rpm is how many rad/secs?",
+        "choices": ["376.991", "157.08", "314.159", "188.496"],
+        "answer": "314.159"
+    },
+    {
+        "question": "An instrument having current coil and a potential coil.",
+        "choices": ["Voltmeter", "Wheatstone bridge", "Ammeter", "Wattmeter"],
+        "answer": "Wattmeter"
+    },
+    {
+        "question": "An ideal transformer has voltage rating of 2300/230 V, a motor is connected to the secondary draws 30 A at 200 V, what resistance must be connected to maintain this voltage?",
+        "choices": ["0.67 Ohm", "1.0 Ohm", "0.75 Ohm", "10 Ohms"],
+        "answer": "1.0 Oh"
+    },
+    {
+        "question": "What is the device used to a generator to prevent motorizing?",
+        "choices": ["Directional-current relay", "Over frequency relay", "Overvoltage relay", "Reverse Power Relay"],
+        "answer": "Reverse Power Relay"
+    },
+    {
+        "question": "What is the PEC Rule for the 115% Disconnecting Means?",
+        "choices": ["Wiring Design", "Manufacturing Design", "Construction Design", "Installation Design"],
+        "answer": "Installation Design"
+    },
+    {
+        "question": "The location of the lightning arrester is",
+        "choices": ["Away from transformer", "Near transformer", "Near Circuit Breaker", "Away from Circuit Breaker"],
+        "answer": "Near transformer"
+    },
+    {
+        "question": "What is the moisture limit of transformer oil?",
+        "choices": ["3-10ppm", "60-75ppm", "40-50 ppm", "30-35 ppm"],
+        "answer": "3-10ppm"
+    },
+    {
+        "question": "Which of the following is not a distance Relay?",
+        "choices": ["Impedance Relay", "Reactance Relay", "MHOs Relay", "Overcurrent relay"],
+        "answer": "Overcurrent relay"
+    },
+    {
+        "question": "Which of the following is not a cause of noise in communication system?",
+        "choices": ["Heat agitation of electrical component", "Manufactured electrical equipment", "Atmosphere", "Another communication signal"],
+        "answer": "Another communication signal"
+    },
+    {
+        "question": "A light source located 2.75 m from the surface produces an illumination 528 lux on that surface. Find the illumination if the distance is change to 1.55m.",
+        "choices": ["298 lux", "1,662 lux", "937 lux", "1288 lux"],
+        "answer": "1,662 lux"
+    },
+    {
+        "question": "Heating value of coal largely depends on",
+        "choices": ["Ash content", "moisture content", "Volatile matter", "Size of coal particles"],
+        "answer": "Ash content"
+    },
+    {
+        "question": "In a certain country, the energy consumption is expected to double in 10 years. Calculate the percent growth rate.",
+        "choices": ["4.78", "6.93", "5.98", "8.43"],
+        "answer": "6.93"
+    },
+    {
+        "question": "Which of the following equipment is used to limit short-circuit current level in substation?",
+        "choices": ["Isolator", "Coupling capacitor", "Lightning switch", "Series reactor"],
+        "answer": "Series reactor"
+    },
+    {
+        "question": "The primary of 3:1 step-up transformer is connected to a source and the secondary is connected to a resistor R. The power dissipated by R in this situation is P. If R is directly connected to the source, it will dissipate the power of",
+        "choices": ["9P", "P", "P/9", "P/3"],
+        "answer": "P/9"
+    },
+    {
+        "question": "Copper loss of a transformer is determined by?",
+        "choices": ["Open circuit test", "Winding resistance Test", "Short Circuit Test", "Transformer ratio test"],
+        "answer": "Short Circuit Test"
+    },
+    {
+        "question": "A certain capacitor, in series with a resistor, is being charged. At the end of 10 ms its charge is half the final value. What is the time constant on this process in ms?",
+        "choices": ["2.3", "10", "6.9", "14"],
+        "answer": "14"
+    },
+    {
+        "question": "The specific resistance p is defined as",
+        "choices": ["Resistance of conductor which has length of 1 m and cross-sectionl area of 1m^2 at 25 degrees C", "Resistance of any conductor 25C", "Resistance of any conductor at 20C", "Resistance of a conductor which has a length of 1 m and a cross-sectional at 1 cm^2 at 25 degrees C"],
+        "answer": "Resistance of conductor which has length of 1 m and cross-sectionl area of 1m^2 at 25 degrees C"
+    },
+    {
+        "question": "Current has a unit of _____",
+        "choices": ["Coulomb/second", "Volts", "Joules /coulomb", "Ohm"],
+        "answer": "Coulomb/second"
+    },
+    {
+        "question": "For constant tansmission efficiency, the voltage is increased n times, the size of conductor will be____",
+        "choices": ["reduced to (1/n) times the original", "reduced to (1/n^2) times of the original", "increased to n^2 times of the orginal", "increased to n^2 times of the original"],
+        "answer": "reduced to (1/n^2) times of the original"
+    },
+    {
+        "question": "A common utilities tariff practice to penalize consumers whose power factor falls below _____and give incentive for power factor above ____",
+        "choices": ["80%, 90%", "75%,90%", "85%, 85%", "75%, 85%"],
+        "answer": "80%, 90%"
+    },
+    {
+        "question": "A tropical storm is going to the Philippine area of Responsibility (PAR), What alert is to be raised in accordance to the Philippine Distribution Code?",
+        "choices": ["Red Alert", "Blue alert", "Yellow Alert", "Orange Alert"],
+        "answer": "Blue alert"
+    },
+    {
+        "question": "The sum of the currents into a junction equals the sum of the currents out of the junction is a consequence of",
+        "choices": ["Newton’s 3rd Law", "Ohm’s Law", "newton’s 2nd Law", "Conservation of Energy", "Conservation of Charge"],
+        "answer": "Conservation of Charge"
+    },
+    {
+        "question": "In Philippine Grid Code, which notice is issued by the operator when the power supply is insufficient to meet the transmission grid's requirement?",
+        "choices": ["Red Alert", "Yellow Alert", "Blue Alert", "Security Alert"],
+        "answer": "Red Alert"
+    },
+    {
+        "question": "Minimum qualified experience for PEE applicant is ____years",
+        "choices": ["4", "5", "6", "10"],
+        "answer": "10"
+    },
+    {
+        "question": "Tappings in on-load tap changing transformer are provided on ______",
+        "choices": ["HV side", "Primary side", "LV side", "secondary Side"],
+        "answer": "HV side"
+    },
+
+    {
+        "question": "The printed documents are transmitted by fax and converted into baseband electrical signal is called",
+        "choices": ["Modulation", "Scanning", "Demodulation", "Reflection"],
+        "answer": "Scanning"
+    },
+    {
+        "question": "Which is not included in a basic communication circuit?",
+        "choices": ["Antenna", "Communication Channel", "Transmitter", "Receiver"],
+        "answer": "AKO NA BAHALA DITO"
+    },
+    {
+        "question": "For which of the following parameter variation, the capacitance of the capacitor remains un affected",
+        "choices": ["Distance between plates", "Area of the plates", "Nature of dielectric", "Thickness of the plate"],
+        "answer": "Thickness of the plate"
+    },
+    {
+        "question": "Two coils having inductance L1=0.5H, L2=0.3H. At hone instant, l1=12A and l2=5A. Find the tota; energy stored when the coefficient of coupling is M=-0.45H.",
+        "choices": ["12.75J", "1275J", "127.5J", "1.265J"],
+        "answer": "12.75J"
+    },
+    {
+        "question": "Radio receivers are usually tuned by adjusting capacitor of an LC circuit. If C=C1 for frequency of 600kHz, then for a frequency of 1200 kHz, C must adjust to",
+        "choices": ["C1/2", "2C1", " C1/4", "4C1"],
+        "answer": "C1/4"
+    },
+    {
+        "question": "The growth rate of the energy consumption in our country is 6.9%. In how many years will the energy be quadrupled?",
+        "choices": ["15.01", "20.01", "25.01", "30.01"],
+        "answer": "20.01"
+    },
+    {
+        "question": "What is the relationship of the line current IL and coil current Ic in a balanced delta system?",
+        "choices": ["They are equal", "Phasor difference of their phase voltage", "1.414 Ic", "Ic/1.732"],
+        "answer": "Ic/1.732"
+    },
+    {
+        "question": "When the sole purpose of alternating current is to produce heat, the selection on ____ value of the current",
+        "choices": ["Average", "Root Mean Square", "instantaneous", "maximum"],
+        "answer": "Root Mean Square"
+    },
+    {
+        "question": "Which is not a renewable energy?",
+        "choices": ["Solar", "Wind", "Run-of River", "Nuclear"],
+        "answer": "Nuclear"
+    },
+    {
+        "question": "One primary and one secondary of the two-winding transformer are connected to an ohm-meter instrument. What will be the reading of the instrument?",
+        "choices": ["Infinity", "Zero", "Zero or Infinity", "equal to winding resistance"],
+        "answer": "Infinity"
+    },
+    {
+        "question": "The permeability of material means",
+        "choices": ["strength of permanent magnet", "strength of an electromagnet", "the magnetization left in the iron after exciting the field", "the conductivity of a material for magnetic lines of force"],
+        "answer": "the conductivity of a material for magnetic lines of force"
+    },
+    {
+        "question": "Which of the following is not a simplex type of electronic communication?",
+        "choices": ["TV Broadcasting", "Facsimile or Fax", "Paging Services", "Telephone"],
+        "answer": "Telephone"
+    },
+    {
+        "question": "What is the frequency used in communication such as mobile phones?",
+        "choices": ["EHF", "VHF", "UHF", "SHF"],
+        "answer": "UHF"
+    },
+    {
+        "question": "Power loss is important for the design of",
+        "choices": ["Transmission line", "Motor", "Generator", "Feeder"],
+        "answer": "Transmission line"
+    },
+    {
+        "question": "Current limiting reactor are used to:",
+        "choices": ["Improve the voltage regulation", "Bring down the fault level to minimum capacity", "Improve the efficiency", "improve the power factor"],
+        "answer": "Bring down the fault level to minimum capacity"
+    },
+    {
+        "question": "A LC series circuit with an inductance L and capacitance C has an oscillation frequency f. Two inductors, each with inductance L and two capacitors, each with capacitance C, are wired in series and the circuit is completed. The oscillation frequency is",
+        "choices": ["f/4", "f", "f/2", "2f"],
+        "answer": "f/2"
     }
 
     ],
@@ -236,7 +568,7 @@ const categories = {
     {
         "question": "A man driving a car at 45 mph suddenly sees an object in the road 60 feet ahead. What constant deceleration is required to stop the car in this distance?",
         "choices": ["–42.6 ft/sec²", "–41.8 ft/sec²", "–36.3 ft/sec²", "–35.3 ft/sec²"],
-        "answer": "–36.3 ft/sec²"
+        "answer": "–35.3 ft/sec²"
     },
     {
         "question": "A 1.2 µF capacitor is charged to 3 kVolt. What is the energy stored in the capacitor?",
